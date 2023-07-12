@@ -64,7 +64,8 @@ img {
   font-weight: 800;
 }
 
-.sign-up {
+.hero-sign-up,
+.action-sign-up {
   max-width: 100px;
   height: 30px;
   margin-top: 10px;
@@ -145,7 +146,40 @@ img {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
-  /* border: 3px solid #3882f6; */
   width: 210px;
   margin-left: 350px;
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  display: flex;
+  background-color: #3882f6;
+  padding: 30px 200px;
+  margin: 70px 250px;
+  border-radius: 8px;
+}
+
+.action-text {
+  color: #f9faf8;
+}
+
+.action-main {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.action-sign-up {
+  border: 2px solid white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
 }
